@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@/back/*": ["./backend/*"],
+      "@/front/*": ["./frontend/*"],
+      "@/types": ["./backend/node_modules/.prisma/client/index"]
+    }
+  }
+}
